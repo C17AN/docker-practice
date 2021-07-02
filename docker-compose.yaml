@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   # my-app:
   # image: ${docker-registry}/my-app:1.0
@@ -24,3 +24,12 @@ services:
 volumes:
   mongo-data:
     driver: local
+# version: "0"
+#     services:
+#       mongodb-express:
+#         image: mongodb-express
+#         ports:
+#          - 8081:8081
+#         environment:
+#           - MONGO_INITDB_ROOT_PASSWORD=password
+#           - MONGO_INITDB_ROOT_USERNAME=admin
